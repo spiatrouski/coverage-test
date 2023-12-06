@@ -20,4 +20,8 @@ class MathServiceTest {
         assertThat(mathService.sub(4, 3)).isEqualTo(1);
     }
 
+    @Test
+    void sub1() {
+        assertThat(mathService.sub(5, 3)).isEqualTo(2);
+    }
 }
