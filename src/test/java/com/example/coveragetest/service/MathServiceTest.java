@@ -18,4 +18,8 @@ class MathServiceTest {
         assertThat(mathService.sub(4, 3)).isEqualTo(1);
     }
 
+    @Test
+    void add() {
+        assertThat(mathService.add(4, 3)).isEqualTo(7);
+    }
 }
