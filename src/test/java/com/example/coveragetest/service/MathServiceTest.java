@@ -1,4 +1,4 @@
-package com.example.coveragetest;
+package com.example.coveragetest.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
