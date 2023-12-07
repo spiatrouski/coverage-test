@@ -22,4 +22,9 @@ class MathServiceTest {
     void add() {
         assertThat(mathService.add(4, 3)).isEqualTo(7);
     }
+
+    @Test
+    void mul() {
+        assertThat(mathService.mul(4, 3)).isEqualTo(12);
+    }
 }
