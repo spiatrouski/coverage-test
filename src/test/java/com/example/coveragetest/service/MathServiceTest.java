@@ -7,8 +7,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.example.coveragetest.service.MathService;
-
 @ExtendWith(MockitoExtension.class)
 class MathServiceTest {
 
