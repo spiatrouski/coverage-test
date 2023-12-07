@@ -9,4 +9,9 @@ class CoverageApplicationTest {
     @Test
     void contextLoads() {
     }
+
+    @Test
+    void main() {
+        CoverageApplication.main(new String[0]);
+    }
 }
