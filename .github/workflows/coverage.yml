@@ -27,7 +27,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: jacoco-report
-        path: target/site/jacoco/index.html
+        path: target/site/jacoco
 
     - name: Add coverage to PR
       id: jacoco
@@ -37,5 +37,5 @@ jobs:
             ${{ github.workspace }}/target/site/jacoco/jacoco.xml
           token: ${{ secrets.GITHUB_TOKEN }}
           pass-emoji: ':white_check_mark:'
-          debug-mode: true
           update-comment: true
+          title: 'Coverage Report'
