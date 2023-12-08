@@ -27,4 +27,9 @@ class MathServiceTest {
     void mul() {
         assertThat(mathService.mul(4, 3)).isEqualTo(12);
     }
+
+    @Test
+    void del() {
+        assertThat(mathService.del(4, 2)).isEqualTo(2);
+    }
 }
